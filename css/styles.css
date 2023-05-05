@@ -68,6 +68,9 @@ img{
 .site-menu-item{
   padding: 24px 0;
 }
+.site-menu-link{
+  padding: 24px 0 24px ;
+}
 
 .contact-list{
   display: flex;
