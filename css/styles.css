@@ -224,9 +224,23 @@ img{
   letter-spacing: 0.02em;
   color: #434455;
 }
-/* we-doing */
+/* section-three_we-doing */
+
+.we-doing{
+  padding-bottom: 120px;
+}
+
+.we-doing-list{
+  display: flex;
+  gap: 24px;
+}
+
+.we-doing-item{
+  width: calc((100% - 48px) / 3);
+}
 
 .we-doing-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
