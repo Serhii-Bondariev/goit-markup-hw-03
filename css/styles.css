@@ -77,6 +77,11 @@ img{
   gap: 40px 
 }
 
+.footer-link{
+  display: inline-block;
+  margin-bottom: 16px; 
+}
+
 .logo {
   margin-right: 76px;
   font-family: 'Raleway', sans-serif;
@@ -250,17 +255,27 @@ img{
   color: #2e2f42;
 }
 
-/* our-team  */
+/* forth-section_our-team  */
 .our-team {
+  padding: 120px 0;
   background-color: #f4f4fd;
 }
 
 .our-team-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   color: var(--descr-color);
   background-color: #ffffff;
 }
 
+.our-team-staff{
+  padding: 32px 16px;
+
+}
+
+
 .our-team-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -270,6 +285,8 @@ img{
   color: var(--title-color);
 }
 .our-team-list {
+  gap: 24px;
+  display: flex;
   background-color: #ffffff;
 }
 .our-team-members {
@@ -287,6 +304,7 @@ img{
   color: #434455;
 }
 
+
 /* footer */
 
 .footer-dscr {
@@ -296,6 +314,7 @@ img{
   color: #f4f4fd;
 }
 .footer {
+  padding: 100px 0;
   background: #2e2f42;
 }
 
