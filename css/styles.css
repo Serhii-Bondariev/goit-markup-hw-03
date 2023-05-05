@@ -330,6 +330,11 @@ img{
 
 /* portfolio */
 
+.main-section{
+  padding: 96px 0 120px ;
+  
+}
+
 .filter-but:hover,
 .filter-but:focus {
   color: #ffffff;
