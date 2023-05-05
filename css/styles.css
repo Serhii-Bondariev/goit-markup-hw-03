@@ -77,8 +77,6 @@ img{
   gap: 40px 
 }
 
-
-
 .logo {
   margin-right: 76px;
   font-family: 'Raleway', sans-serif;
@@ -92,6 +90,8 @@ img{
 .logo-header-light {
   color: #2e2f42;
 }
+
+/* main-content */
 
 .logo-footer-dark {
   color: #f4f4fd;
@@ -155,11 +155,13 @@ img{
 /* Main-content */
 
 .hero {
+  padding: 188px 0
   background: #2e2f42;
   font-style: normal;
 }
 
 .hero-title {
+  max-width: 496px; 
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -171,6 +173,13 @@ img{
 /* modal */
 
 .modal-open-button {
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  border: none;
+  height: 56px;
+  min-width: 169px
+  display: block;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
