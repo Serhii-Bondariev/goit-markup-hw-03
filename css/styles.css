@@ -253,6 +253,11 @@ img{
 }
 
 /* forth-section_our-team  */
+
+.our-team-container{
+  padding: 32px 16px;
+}
+
 .our-team {
   padding: 120px 0;
   background-color: #f4f4fd;
