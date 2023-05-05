@@ -374,6 +374,10 @@ img{
   margin-bottom: 8px;
 }
 
+.portfolio-links{
+  width: calc((100% - 48px) / 3);
+}
+
 .portfolio-list{
   display: flex;
   flex-wrap: wrap;
