@@ -336,7 +336,7 @@ img{
 
 }
 
-/* buttons */
+/* portfolio-buttons */
 
 .filter-btn-list{
   display: flex;
@@ -361,6 +361,13 @@ img{
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+}
+
+.portfilio-container{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
 }
 
 .portfolio-list{
