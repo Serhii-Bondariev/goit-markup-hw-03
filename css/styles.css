@@ -194,9 +194,24 @@ img{
 .modal-open-button:focus {
   background-color: #404bbf;
 }
-/* our-goal */
+
+/* section-two_our-goal */
+
+.our-goal-sec{
+  padding: 120px 0;
+}
+
+.our-goal-list{
+  display: flex;
+  gap: 24px;
+}
+
+.our-goal-item{
+  width: calc((100% - 72px) / 4);
+}
 
 .our-goal-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
