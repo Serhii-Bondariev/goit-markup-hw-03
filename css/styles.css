@@ -80,7 +80,7 @@ img{
 
 
 .logo {
-  
+  display: inline-block;
   margin-right: 76px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -348,6 +348,10 @@ img{
 /* .filter-btn-item{
  
 } */
+
+.filter-menu{
+  margin-left: ;
+}
 
 .filter-but:hover,
 .filter-but:focus {
