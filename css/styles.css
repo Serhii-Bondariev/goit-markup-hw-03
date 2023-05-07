@@ -59,8 +59,6 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .header-page {
@@ -146,10 +144,8 @@ img {
 .contact {
   margin-left: auto;
   font-style: normal;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--descr-color);
 }
 
 .contact-link {
@@ -194,24 +190,16 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
-  display: block;
-  cursor: pointer;
   border-radius: 4px;
   border: none;
   min-height: 56px;
   min-width: 169px;
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  cursor: pointer;
   background-color: var(--primary-btn);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: 0;
-  border-radius: 4px;
 }
 
 .modal-open-button:hover,
@@ -368,10 +356,6 @@ img {
   margin-bottom: 72px;
 }
 
-/* .filter-btn-item{
- 
-} */
-
 .filter-menu {
   margin-left: auto;
 }
@@ -386,9 +370,7 @@ img {
   border-radius: 4px;
   border: 1px solid #e7e9fc;
   padding: 12px 24px;
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
@@ -418,14 +400,6 @@ img {
   border-top: none;
 }
 
-/* .portfolio-links{
-  
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-
-} */
-
 .portfolio-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -439,4 +413,10 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+/* delete-me-after */
+.delete-me-after {
+  margin-left: auto;
+  margin-right: auto;
 }
