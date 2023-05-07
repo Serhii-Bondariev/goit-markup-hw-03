@@ -204,7 +204,12 @@ img{
 .our-goal-sec{
   padding: 120px 0;
 }
-
+.visually-hidden{
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
 .our-goal-list{
   display: flex;
   gap: 24px;
@@ -388,7 +393,7 @@ img{
 }
 
 .portfolio-item{
-  width: calc((100% - 48px) / 3);
+  width:calc((100% - 48px) / 3);
 }
 
 .applications{
