@@ -83,7 +83,6 @@ img {
 
 .contact-list {
   display: flex;
-  align-items: center;
   gap: 40px;
 }
 
@@ -160,15 +159,12 @@ img {
 .contact:focus {
   color: var(--pressed-btn);
 }
-.contact-item {
-  display: flex;
-}
+
 /* Main-content */
 
 .hero {
   padding: 188px 0;
   background: #2e2f42;
-  font-style: normal;
 }
 
 .hero-title {
@@ -176,7 +172,6 @@ img {
   margin-right: auto;
   max-width: 496px;
   margin-bottom: 48px;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -258,7 +253,6 @@ img {
 
 .we-doing-title {
   margin-bottom: 72px;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -380,7 +374,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .portfolio-list {
@@ -417,6 +410,7 @@ img {
 
 /* delete-me-after */
 .delete-me-after {
-  margin-left: auto;
+  
   margin-right: auto;
+  margin-left: auto;
 }
