@@ -59,8 +59,8 @@ img {
 .header-container {
   display: flex;
   align-items: center;
- margin-left: auto;
- margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-page {
@@ -84,10 +84,9 @@ img {
 }
 
 .contact-list {
- 
   display: flex;
-    align-items: center;
-    gap: 40px;
+  align-items: center;
+  gap: 40px;
 }
 
 .logo {
@@ -165,9 +164,8 @@ img {
 .contact:focus {
   color: var(--pressed-btn);
 }
-.contact-item{
+.contact-item {
   display: flex;
-  
 }
 /* Main-content */
 
@@ -178,7 +176,10 @@ img {
 }
 
 .hero-title {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 496px;
+  margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -191,11 +192,14 @@ img {
 
 .modal-open-button {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  display: block;
   cursor: pointer;
   border-radius: 4px;
-  background-color: #4d5ae5;
   border: none;
-  height: 56px;
+  min-height: 56px;
   min-width: 169px;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -205,6 +209,9 @@ img {
   color: #ffffff;
   cursor: pointer;
   background-color: var(--primary-btn);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 0;
+  border-radius: 4px;
 }
 
 .modal-open-button:hover,
@@ -286,7 +293,8 @@ img {
 .our-team-item {
   flex-basis: calc((100% - 72px) / 4);
   background-color: var(--background-white);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
 
